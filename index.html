@@ -1,33 +1,50 @@
 <!DOCTYPE html>
-<html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
-    <title>Dopefolio</title>
-    <meta name="description" content="Portfolio Template for Developer" />
+<html lang="pl">
 
-    <link rel="stylesheet" href="css/style.css" />
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+  <title>Damfolio</title>
+  <meta name="description" content="Dam Web Developer" />
+  <link rel="stylesheet" href="css/style.css" />
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,400;0,700;0,900;1,700;1,900&display=swap"
+    rel="stylesheet">
+  <link rel="icon" type="image/x-icon" href="/assets/png/favicon.png">
+  <link href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/remixicon/4.6.0/remixicon.css">
+</head>
 
-    <link rel="preconnect" href="https://fonts.googleapis.com" />
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-    <link
-      href="https://fonts.googleapis.com/css2?family=Source+Sans+Pro:wght@400;600;700;900&display=swap"
-      rel="stylesheet"
-    />
-  </head>
-  <body>
+<body>
+
+  <section class="home-hero">
+    <section class="wrapper">
+      <div id="stars"></div>
+      <div id="stars2"></div>
+      <div id="stars3"></div>
+    </section>
+
     <header class="header">
       <div class="header__content">
         <div class="header__logo-container">
-          <div class="header__logo-img-cont">
+
+          <!--<div class="header__logo-img-cont">
             <img
-              src="./assets/png/john-doe.png"
+              src="./assets/png/avatar.png"
               alt="Ram Maheshwari Logo Image"
               class="header__logo-img"
             />
           </div>
-          <span class="header__logo-sub">John Doe</span>
+          -->
+          <div class="logo-animation">
+
+            <div class="dynamic-txts">Damian
+              <span></span>
+            </div>
+
+          </div>
         </div>
         <div class="header__main">
           <ul class="header__links">
@@ -35,7 +52,10 @@
               <a href="./index.html" class="header__link"> Home </a>
             </li>
             <li class="header__link-wrapper">
-              <a href="./index.html#about" class="header__link">About </a>
+              <a href="./index.html#about" class="header__link">About me </a>
+            </li>
+            <li class="header__link-wrapper">
+              <a href="./index.html#services" class="header__link">Services </a>
             </li>
             <li class="header__link-wrapper">
               <a href="./index.html#projects" class="header__link">
@@ -47,16 +67,9 @@
             </li>
           </ul>
           <div class="header__main-ham-menu-cont">
-            <img
-              src="./assets/svg/ham-menu.svg"
-              alt="hamburger menu"
-              class="header__main-ham-menu"
-            />
-            <img
-              src="./assets/svg/ham-menu-close.svg"
-              alt="hamburger menu close"
-              class="header__main-ham-menu-close d-none"
-            />
+            <img src="./assets/svg/ham-menu.svg" alt="hamburger menu" class="header__main-ham-menu" />
+            <img src="./assets/svg/ham-menu-close.svg" alt="hamburger menu close"
+              class="header__main-ham-menu-close d-none" />
           </div>
         </div>
       </div>
@@ -76,337 +89,836 @@
             </li>
 
             <li class="header__sm-menu-link">
-              <a href="./index.html#contact"> Contact </a>
+              <a href="./index.html#contact"> Kontakt </a>
             </li>
           </ul>
         </div>
       </div>
     </header>
-    <section class="home-hero">
-      <div class="home-hero__content">
-        <h1 class="heading-primary">Hey, My name is John Doe</h1>
-        <div class="home-hero__info">
-          <p class="text-primary">
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Hic facilis
-            tempora explicabo quae quod deserunt eius sapiente solutions for
-            complex problems
-          </p>
-        </div>
-        <div class="home-hero__cta">
-          <a href="./#projects" class="btn btn--bg">Projects</a>
-        </div>
+    <div class="home-hero__content">
+      <h1 class="heading-primary">Pełen stack możliwości, od wizji po realizację. </h1>
+      <div class="home-hero__info">
+        <p class="text-primary">
+          Jako Fullstack Developer dostosowuję się do wyzwań, tworząc efektywne rozwiązania. Twoje pomysły, moje
+          technologie – razem zbudujmy coś wyjątkowego!
+
+
+        </p>
       </div>
-      <div class="home-hero__socials">
-        <div class="home-hero__social">
-          <a href="#" class="home-hero__social-icon-link">
-            <img
-              src="./assets/png/linkedin-ico.png"
-              alt="icon"
-              class="home-hero__social-icon"
-            />
-          </a>
-        </div>
-        <div class="home-hero__social">
-          <a href="#" class="home-hero__social-icon-link">
-            <img
-              src="./assets/png/github-ico.png"
-              alt="icon"
-              class="home-hero__social-icon"
-            />
-          </a>
-        </div>
-        <div class="home-hero__social">
-          <a href="#" class="home-hero__social-icon-link">
-            <img
-              src="./assets/png/twitter-ico.png"
-              alt="icon"
-              class="home-hero__social-icon"
-            />
-          </a>
-        </div>
-        <div class="home-hero__social">
-          <a href="#" class="home-hero__social-icon-link">
-            <img
-              src="./assets/png/yt-ico.png"
-              alt="icon"
-              class="home-hero__social-icon"
-            />
-          </a>
-        </div>
-        <div class="home-hero__social">
-          <a
-            href="#"
-            class="home-hero__social-icon-link home-hero__social-icon-link--bd-none"
-          >
-            <img
-              src="./assets/png/insta-ico.png"
-              alt="icon"
-              class="home-hero__social-icon"
-            />
-          </a>
-        </div>
+      <div class="home-hero__cta">
+        <a href="./assets/pdf/CV_Pl_DamianT.pdf" download class="btn btn--bg">Pobierz CV</a>
       </div>
-      <div class="home-hero__mouse-scroll-cont">
-        <div class="mouse"></div>
+    </div>
+    <div class="home-hero__socials">
+      <div class="home-hero__social">
+        <a href="https://www.linkedin.com/in/damian-tchorzewski-3b2388275/" target="_blank"
+          class="home-hero__social-icon-link">
+          <img src="./assets/png/linkedin-ico.png" alt="icon" class="home-hero__social-icon" />
+        </a>
       </div>
-    </section>
-    <section id="about" class="about sec-pad">
-      <div class="main-container">
+      <div class="home-hero__social">
+        <a href="https://github.com/DamTchorzewski?tab=repositories" target="_blank"
+          class="home-hero__social-icon-link">
+          <img src="./assets/png/github-ico.png" alt="icon" class="home-hero__social-icon" />
+        </a>
+      </div>
+      <div class="home-hero__social">
+        <a href="mailto:damiantchorzewski0@gmail.com" class="home-hero__social-icon-link">
+          <img src="./assets/png/email-ico.png" alt="icon" class="home-hero__social-icon" />
+        </a>
+      </div>
+      <div class="home-hero__social">
+        <a href="tel:+48535780277" class="home-hero__social-icon-link">
+          <img src="./assets/png/phone-ico.png" alt="icon" class="home-hero__social-icon" />
+        </a>
+      </div>
+
+    </div>
+    <div class="home-hero__mouse-scroll-cont">
+      <div class="mouse"></div>
+    </div>
+  </section>
+  <section id="about" class="about sec-pad">
+    <div class="main-container">
+      <div class="box-bg">
+
+
         <h2 class="heading heading-sec heading-sec__mb-med">
-          <span class="heading-sec__main">About Me</span>
-          <span class="heading-sec__sub">
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Hic facilis
-            tempora explicabo quae quod deserunt eius sapiente
+          <span class="exp-title">O mnie</span>
+          <span class="heading-sec__sub__text">Cześć! Nazywam się
+            <strong> Damian Tchorzewski </strong> i jestem <strong>Fullstack Developerm</strong> z Warszawy.
+            Pracowałem nad projektami dla firm, doradzałem startupom oraz współpracowałem z utalentowanymi osobami,
+            tworząc innowacyjne produkty cyfrowe skierowane zarówno dla biznesu, jak i konsumentów.
+
           </span>
         </h2>
-        <div class="about__content">
-          <div class="about__content-main">
-            <h3 class="about__content-title">Get to know me!</h3>
+      </div>
+      <div class="about__content">
+        <div class="about__content-main">
+          <div class="box-bg">
+            <h3 class="about__content-title">Poznaj mnie!</h3>
             <div class="about__content-details">
               <p class="about__content-details-para">
-                Hey! It's
-                <strong>John Doe</strong>
-                and I'm a <strong> Frontend Web Developer </strong> located in
-                Los Angeles. I've done
-                <strong> remote </strong>
-                projects for agencies, consulted for startups, and collaborated
-                with talented people to create
-                <strong>digital products </strong>
-                for both business and consumer use.
+
+                Specjalizuję się w tworzeniu skalowalnych aplikacji webowych i mobilnych,
+                korzystając z najnowszych technologii oraz najlepszych praktyk w programowaniu.
+                Moje doświadczenie obejmuje pełny cykl życia projektów – od analizy potrzeb, przez projektowanie,
+                aż po wdrożenie i utrzymanie. Z pasją podchodzę do każdego wyzwania, a moim celem jest dostarczanie
+                rozwiązań,
+                które nie tylko spełniają oczekiwania użytkowników, ale także wnoszą realną wartość do biznesu.
+
               </p>
               <p class="about__content-details-para">
-                I'm a bit of a digital product junky. Over the years, I've used
-                hundreds of web and mobile apps in different industries and
-                verticals. Feel free to
-                <strong>contact</strong> me here.
+
+
               </p>
             </div>
-            <a href="./#contact" class="btn btn--med btn--theme dynamicBgClr"
-              >Contact</a
-            >
+            <!--a href="./#contact" class="btn btn--med  dynamicBgClr"
+              >Więcej o mnie</a
+            >-->
           </div>
-          <div class="about__content-skills">
-            <h3 class="about__content-title">My Skills</h3>
+        </div>
+        <div class="about__content-skills">
+
+
+          <div class="box-bg">
+            <div class="tab_box">
+              <button class="tab_btn">Technical </button>
+              <button class="tab_btn">Libraries</button>
+              <button class="tab_btn">Tools</button>
+              <button class="tab_btn">Design</button>
+              <div class="line"></div>
+            </div>
+
             <div class="skills">
+              <h3 class="about__content-title">Technical Skills</h3>
               <div class="skills__skill">HTML</div>
               <div class="skills__skill">CSS</div>
               <div class="skills__skill">JavaScript</div>
-              <div class="skills__skill">React</div>
               <div class="skills__skill">SASS</div>
               <div class="skills__skill">GIT</div>
-              <div class="skills__skill">Shopify</div>
-              <div class="skills__skill">Wordpress</div>
-              <div class="skills__skill">Google ADS</div>
-              <div class="skills__skill">Facebook Ads</div>
+              <div class="skills__skill">PHP</div>
+              <div class="skills__skill">SQL</div>
+              <div class="skills__skill">C#</div>
+              <div class="skills__skill">Node</div>
+              <div class="skills__skill">Python</div>
+              <div class="skills__skill">API</div>
+              <div class="skills__skill">JSON</div>
+
+
+            </div>
+
+            <div class="skills">
+              <h3 class="about__content-title">Libraries</h3>
+              <div class="skills__skill">React</div>
+              <div class="skills__skill">PyTorch</div>
+              <div class="skills__skill">OpenCv</div>
+              <div class="skills__skill">Lodash</div>
+              <div class="skills__skill">Moment.js</div>
+              <div class="skills__skill">Axios </div>
+              <div class="skills__skill">Redux </div>
+              <div class="skills__skill">MathJs</div>
+              <div class="skills__skill">ChartJs</div>
+              <div class="skills__skill">Bootstrap</div>
+              <div class="skills__skill">JQuery</div>
+              <div class="skills__skill">Netlify</div>
+              <div class="skills__skill">Firebase</div>
+              <div class="skills__skill">Webpack</div>
+              <div class="skills__skill">Jest</div>
+              <div class="skills__skill">NumPy</div>
+              <div class="skills__skill">Matplotlib</div>
+            </div>
+
+            <div class="skills">
+              <h3 class="about__content-title">Tools</h3>
+              <div class="skills__skill">Linux</div>
+              <div class="skills__skill">Windows</div>
+              <div class="skills__skill">Bash</div>
               <div class="skills__skill">Android</div>
               <div class="skills__skill">IOS</div>
-            </div>
-          </div>
-        </div>
-      </div>
-    </section>
-    <section id="projects" class="projects sec-pad">
-      <div class="main-container">
-        <h2 class="heading heading-sec heading-sec__mb-bg">
-          <span class="heading-sec__main">Projects</span>
-          <span class="heading-sec__sub">
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Hic facilis
-            tempora explicabo quae quod deserunt eius sapiente
-          </span>
-        </h2>
+              <div class="skills__skill">GitHub </div>
+              <div class="skills__skill">WordPress </div>
+              <div class="skills__skill">Docker</div>
+              <div class="skills__skill">PrestaShop</div>
+              <div class="skills__skill">Insomnia</div>
+              <div class="skills__skill">Trello</div>
+              <div class="skills__skill">Slack</div>
+              <div class="skills__skill">Android studio</div>
+              <div class="skills__skill">Chat GPT</div>
 
-        <div class="projects__content">
-          <div class="projects__row">
-            <div class="projects__row-img-cont">
-              <img
-                src="./assets/jpeg/project-mockup-example.jpeg"
-                alt="Software Screenshot"
-                class="projects__row-img"
-                loading="lazy"
-              />
             </div>
-            <div class="projects__row-content">
-              <h3 class="projects__row-content-title">Project 1</h3>
-              <p class="projects__row-content-desc">
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. Hic
-                facilis tempora, explicabo quae quod deserunt eius sapiente
-                praesentium.
-              </p>
-              <a
-                href="./project-1.html"
-                class="btn btn--med btn--theme dynamicBgClr"
-                target="_blank"
-                >Case Study</a
-              >
+
+            <div class="skills">
+              <h3 class="about__content-title">Design</h3>
+              <div class="skills__skill">Addobe</div>
+              <div class="skills__skill">Canva</div>
+              <div class="skills__skill">Figma</div>
+              <div class="skills__skill">Gimp</div>
+              <div class="skills__skill">Cinema 4D</div>
+              <div class="skills__skill">Vectr</div>
             </div>
+
+
           </div>
-          <div class="projects__row">
-            <div class="projects__row-img-cont">
-              <img
-                src="./assets/jpeg/project-mockup-example.jpeg"
-                alt="Software Screenshot"
-                class="projects__row-img"
-                loading="lazy"
-              />
-            </div>
-            <div class="projects__row-content">
-              <h3 class="projects__row-content-title">Project 2</h3>
-              <p class="projects__row-content-desc">
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. Hic
-                facilis tempora, explicabo quae quod deserunt eius sapiente
-                praesentium.
-              </p>
-              <a
-                href="./project-2.html"
-                class="btn btn--med btn--theme dynamicBgClr"
-                target="_blank"
-                >Case Study</a
-              >
-            </div>
-          </div>
-          <div class="projects__row">
-            <div class="projects__row-img-cont">
-              <img
-                src="./assets/jpeg/project-mockup-example.jpeg"
-                alt="Software Screenshot"
-                class="projects__row-img"
-                loading="lazy"
-              />
-            </div>
-            <div class="projects__row-content">
-              <h3 class="projects__row-content-title">Project 3</h3>
-              <p class="projects__row-content-desc">
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. Hic
-                facilis tempora, explicabo quae quod deserunt eius sapiente
-                praesentium.
-              </p>
-              <a
-                href="./project-3.html"
-                class="btn btn--med btn--theme dynamicBgClr"
-                target="_blank"
-                >Case Study</a
-              >
-            </div>
-          </div>
-        </div>
-      </div>
-    </section>
-    <section id="contact" class="contact sec-pad dynamicBg">
-      <div class="main-container">
-        <h2 class="heading heading-sec heading-sec__mb-med">
-          <span class="heading-sec__main heading-sec__main--lt">Contact</span>
-          <span class="heading-sec__sub heading-sec__sub--lt">
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Hic facilis
-            tempora explicabo quae quod deserunt eius sapiente
-          </span>
-        </h2>
-        <div class="contact__form-container">
-          <form action="#" class="contact__form">
-            <div class="contact__form-field">
-              <label class="contact__form-label" for="name">Name</label>
-              <input
-                required
-                placeholder="Enter Your Name"
-                type="text"
-                class="contact__form-input"
-                name="name"
-                id="name"
-              />
-            </div>
-            <div class="contact__form-field">
-              <label class="contact__form-label" for="email">Email</label>
-              <input
-                required
-                placeholder="Enter Your Email"
-                type="text"
-                class="contact__form-input"
-                name="email"
-                id="email"
-              />
-            </div>
-            <div class="contact__form-field">
-              <label class="contact__form-label" for="message">Message</label>
-              <textarea
-                required
-                cols="30"
-                rows="10"
-                class="contact__form-input"
-                placeholder="Enter Your Message"
-                name="message"
-                id="message"
-              ></textarea>
-            </div>
-            <button type="submit" class="btn btn--theme contact__btn">
-              Submit
-            </button>
-          </form>
-        </div>
-      </div>
-    </section>
-    <footer class="main-footer">
-      <div class="main-container">
-        <div class="main-footer__upper">
-          <div class="main-footer__row main-footer__row-1">
-            <h2 class="heading heading-sm main-footer__heading-sm">
-              <span>Social</span>
-            </h2>
-            <div class="main-footer__social-cont">
-              <a target="_blank" rel="noreferrer" href="#">
-                <img
-                  class="main-footer__icon"
-                  src="./assets/png/linkedin-ico.png"
-                  alt="icon"
-                />
-              </a>
-              <a target="_blank" rel="noreferrer" href="#">
-                <img
-                  class="main-footer__icon"
-                  src="./assets/png/github-ico.png"
-                  alt="icon"
-                />
-              </a>
-              <a target="_blank" rel="noreferrer" href="#">
-                <img
-                  class="main-footer__icon"
-                  src="./assets/png/twitter-ico.png"
-                  alt="icon"
-                />
-              </a>
-              <a target="_blank" rel="noreferrer" href="#">
-                <img
-                  class="main-footer__icon"
-                  src="./assets/png/yt-ico.png"
-                  alt="icon"
-                />
-              </a>
-              <a target="_blank" rel="noreferrer" href="#">
-                <img
-                  class="main-footer__icon main-footer__icon--mr-none"
-                  src="./assets/png/insta-ico.png"
-                  alt="icon"
-                />
-              </a>
-            </div>
-          </div>
-          <div class="main-footer__row main-footer__row-2">
-            <h4 class="heading heading-sm text-lt">John Doe</h4>
-            <p class="main-footer__short-desc">
-              Lorem ipsum dolor sit amet consectetur adipisicing elit facilis
-              tempora explicabo quae quod deserunt
+
+
+  </section>
+  <section>
+
+
+
+
+    <div class="experience">
+      <h2 class="heading heading-sec heading-sec__mb-bg">
+        <span class="exp-title">Experience</span>
+
+      </h2>
+
+      <div class="timeline">
+
+        <div class="exp-box left-box">
+          <img src="./assets/png/logo-ns.png" alt="t">
+          <div class="exp-text">
+            <h4>Naścieżce.pl</h4>
+            <small>2015-2019</small>
+            <p>
+              Współtworzenie sklepu internetowego, który łączył pasję do turystyki rowerowej z funkcjonalnością
+              e-commerce. Zajmowałem się zarówno konfiguracją techniczną strony na, jak i
+              zarządzaniem działaniem sklepu oraz serwisem rowerowym.
             </p>
+            <span class="left-box-arrow"></span>
           </div>
         </div>
 
-        <!-- If you give me some credit or shoutout here by linking to my website, then it will be a big thing for me and will help me a lot :) -->
-        <div class="main-footer__lower">
-          &copy; Copyright 2021. Made by
-          <a rel="noreferrer" target="_blank" href="https://rammaheshwari.com"
-            >Ram Maheshwari</a
-          >
+        <div class="exp-box right-box">
+          <img src="./assets/svg/logo-cozmo.ico" alt="">
+          <div class="exp-text">
+            <h4>CozmoBike.pl</h4>
+            <small>2021-currently</small>
+            <p>W CozmoBike współpracowałem nad rozwojem strony internetowej dla miłośników turystyki rowerowej.
+              Strona jest hostowana na prywatnym serwerze i zintegrowana z systemem sprzedaży Subiekt GT,
+              który wspomaga zarządzanie sklepem internetowym.
+              Dodatkowo, wykorzystujemy PrestaShop do obsługi e-commerce.
+              Moje zadania obejmowały identyfikowanie błędów na stronie, poprawę responsywności,
+              optymalizację działania sklepu online oraz usprawnienie platformy informacyjnej, aby zapewnić ich płynne
+              funkcjonowanie.
+              <span class="right-box-arrow"></span>
+          </div>
+        </div>
+
+        <div class="exp-box left-box">
+          <img src="./assets/png/logo-goit.png " alt="">
+          <div class="exp-text">
+            <h4>GoIt.globa</h4>
+            <small>2022-2023</small>
+            <p>Współpraca jako Fullstack Developer pracowałem nad budowaniem aplikacji webowych. Zajmowałem się zarówno
+              frontendem, jak i backendem, używając technologii takich jak React, Node.js i MongoDB, aby zapewnić pełną
+              funkcjonalność aplikacji.</p>
+            <span class="left-box-arrow"></span>
+          </div>
+        </div>
+
+        <div class="exp-box right-box">
+          <img src="./assets/png/logo-pw.png" alt="">
+          <div class="exp-text">
+            <h4>PaidWork.com</h4>
+            <small>2023</small>
+            <p> Praca przy projektach AI/ML, gdzie pomagałem w analizie danych, budowie modeli uczenia maszynowego oraz
+              tworzeniu algorytmów, które wspierały automatyzację i optymalizację procesów.</p>
+            <span class="right-box-arrow"></span>
+          </div>
+        </div>
+
+        <div class="exp-box left-box">
+          <img class="border-radius-none" src="./assets/png/logo-czary.png" alt="">
+          <div class="exp-text">
+            <h4>CzarymaryOkulary.pl </h4>
+            <small>2024</small>
+            <p>Budowa sklepu internetowego z unikalnymi oprawkami okularowymi na platformie WordPress z wykorzystaniem
+              Elementora. Moja rola obejmowała projektowanie interfejsu użytkownika oraz dostosowywanie wyglądu strony
+              do potrzeb użytkowników.</p>
+            <span class="left-box-arrow"></span>
+          </div>
+        </div>
+
+      </div>
+      <h3 class="exp-title">Certificates</h3>
+      <div class="swiper mySwiper">
+        <div class="swiper-wrapper">
+          <div class="swiper-slide"></div>
+          <div class="swiper-slide"></div>
+          <div class="swiper-slide"></div>
+          <!--<div class="swiper-slide">Slide 4</div>
+          <div class="swiper-slide">Slide 5</div>
+          <div class="swiper-slide">Slide 6</div>
+          <div class="swiper-slide">Slide 7</div>
+          <div class="swiper-slide">Slide 8</div>
+          <div class="swiper-slide">Slide 9</div>
+        -->
         </div>
       </div>
-    </footer>
+    </div>
 
-    <script src="./index.js"></script>
-  </body>
+
+    </div>
+
+    </div>
+  </section>
+
+
+  <section id="services">
+    <div class="services">
+      <div class="main-container">
+
+        <div class="service-wrapper">
+          <h2 class="heading heading-sec heading-sec__mb-bg">
+            <span class="exp-title">Services</span>
+          </h2>
+
+          <div class="service-content">
+            <p>Jako doświadczony full-stack developer oferuję kompleksowe usługi,
+              które łączą estetykę z funkcjonalnością.
+              Tworzę nowoczesne rozwiązania internetowe, dostosowane do potrzeb klientów,
+              zapewniając wysoką jakość oraz terminowość realizacji.
+            </p>
+
+          </div>
+          <div class="service-conaner">
+            <div class="service">
+              <div class="service_title">
+                <h4>Tworzenie stron i aplikacji internetowych</h4>
+                <i class="ri-add-fill"></i>
+              </div>
+              <div class="service_des">
+                <p>Kompleksowe podejście do tworzenia stron i aplikacji internetowych, które łączą nowoczesny design z
+                  niezawodną funkcjonalnością. Moim celem jest dostarczanie rozwiązań, które nie tylko spełniają
+                  oczekiwania klientów, ale także je przewyższają.</p>
+                <ul>
+                  <li>Projektowanie responsywnych stron internetowych: estetyczne, intuicyjne i zoptymalizowane pod
+                    kątem
+                    użyteczności.</li>
+                  <li>Budowa zaawansowanych aplikacji internetowych: tworzę rozwiązania dostosowane do indywidualnych
+                    potrzeb biznesowych.</li>
+                  <li>Optymalizacja wydajności: zapewniam szybkie działanie stron i aplikacji, niezależnie od
+                    obciążenia.
+                  </li>
+                </ul>
+              </div>
+            </div>
+            <div class="service">
+              <div class="service_title">
+                <h4>Rozwój front-endu</h4>
+                <i class="ri-add-fill"></i>
+              </div>
+              <div class="service_des">
+                <p>Skupiam się na tworzeniu interfejsów użytkownika, które są nie tylko estetyczne, ale również
+                  intuicyjne
+                  i łatwe w obsłudze. Wykorzystuję najnowsze technologie front-endowe, aby zapewnić najlepsze
+                  doświadczenia użytkownika.</p>
+                <ul>
+                  <li>Nowoczesne interfejsy użytkownika: projektuję UI z wykorzystaniem najnowszych technologii, takich
+                    jak React, Redux czy SASS.</li>
+                  <li>Interaktywność: dodaję dynamiczne funkcje, które podnoszą zaangażowanie użytkowników.</li>
+                  <li>Dostosowanie do różnych platform: dbam o kompatybilność z urządzeniami mobilnymi i przeglądarkami.
+                  </li>
+
+                </ul>
+              </div>
+            </div>
+
+            <div class="service">
+              <div class="service_title">
+                <h4>Backend i bazy danych</h4>
+                <i class="ri-add-fill"></i>
+              </div>
+              <div class="service_des">
+                <p>Tworzę skalowalne i wydajne systemy backendowe, które stanowią solidną podstawę dla każdej aplikacji.
+                  Specjalizuję się w integracji z bazami danych i systemami zewnętrznymi, aby dostarczać kompleksowe
+                  rozwiązania.</p>
+                <ul>
+                  <li>Projektowanie solidnego backendu: rozwijam niezawodne systemy zaplecza w oparciu o Node.js, PHP
+                    czy
+                    Python.</li>
+                  <li>Tworzenie i zarządzanie bazami danych: buduję zoptymalizowane struktury w MySQL, PostgreSQL lub
+                    MongoDB.
+                  </li>
+                  <li>Integracja systemów zewnętrznych: łączę aplikacje z API i innymi technologiami, by rozszerzać ich
+                    możliwości.
+                  </li>
+
+                </ul>
+              </div>
+            </div>
+
+            <div class="service">
+              <div class="service_title">
+                <h4>Integracja systemów i zarządzanie wdrożeniami</h4>
+                <i class="ri-add-fill"></i>
+              </div>
+              <div class="service_des">
+                <p>Pomagam klientom w płynnym przejściu od fazy rozwoju do produkcji. Moje doświadczenie w zarządzaniu
+                  wdrożeniami gwarantuje stabilne i bezproblemowe działanie aplikacji.</p>
+                <ul>
+                  <li>Wdrażanie aplikacji: konfiguracja serwerów, zarządzanie środowiskami produkcyjnymi i testowymi.
+                  </li>
+                  <li>Automatyzacja procesów CI/CD: optymalizuję procesy wdrożeniowe z wykorzystaniem Docker, GitHub
+                    Actions czy Jenkins.</li>
+                  <li>Utrzymanie aplikacji: monitorowanie, skalowanie i rozwój systemów po wdrożeniu.</li>
+
+                </ul>
+              </div>
+            </div>
+
+            <div class="service">
+              <div class="service_title">
+                <h4>Rozwiązania dla e-commerce i CMS</h4>
+                <i class="ri-add-fill"></i>
+              </div>
+              <div class="service_des">
+                <p>Specjalizuję się w tworzeniu funkcjonalnych i skalowalnych rozwiązań dla e-commerce i systemów
+                  zarządzania treścią. Moje projekty wspierają rozwój biznesu, zwiększając wygodę użytkowników i
+                  skuteczność sprzedaży.</p>
+                <ul>
+                  <li>Budowa zaawansowanych sklepów internetowych: implementuję funkcjonalności sprzedaży detalicznej i
+                    hurtowej.</li>
+                  <li>Rozwój systemów CMS: personalizacja WordPress, PrestaShop i innych platform.
+                  </li>
+                  <li>Integracje e-commerce: systemy płatności, zarządzanie zamówieniami, obsługa wysyłek.</li>
+
+                </ul>
+              </div>
+            </div>
+
+
+            <div class="service">
+              <div class="service_title">
+                <h4>Konsultacje i wsparcie techniczne</h4>
+                <i class="ri-add-fill"></i>
+              </div>
+              <div class="service_des">
+                <p>Oferuję kompleksowe doradztwo i wsparcie techniczne, które pomaga klientom osiągnąć sukces. Zajmuję
+                  się
+                  zarówno rozwiązywaniem problemów, jak i długoterminowym rozwojem aplikacji.</p>
+                <ul>
+                  <li>Doradztwo technologiczne: pomagaję wybrać najlepsze narzędzia i strategie dla Twojego projektu.
+                  </li>
+                  <li>Diagnostyka i naprawa: szybko znajduję i rozwiązuję problemy techniczne.
+                  </li>
+                  <li>Długoterminowe wsparcie: oferuję stałą współpracę przy utrzymaniu i rozwijaniu aplikacji.</li>
+
+                </ul>
+              </div>
+            </div>
+
+
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </section>
+  </div>
+
+
+
+  <section id="projects" class="projects sec-pad">
+    <div class="main-container">
+      <h2 class="heading heading-sec heading-sec__mb-bg">
+        <span class="heading-sec__main">Projekty</span>
+        <span class="heading-sec__sub">Oto wybrane realizacje, które odzwierciedlają moje podejście do łączenia
+          innowacyjnych technologii z intuicyjnymi rozwiązaniami. Każdy projekt to dowód na rozwój moich kompetencji i
+          pasję do programowania.
+        </span>
+        </span>
+      </h2>
+
+      <div class="projects__content">
+        <div class="projects__row">
+          <div class="projects__row-img-cont">
+            <img src="./assets/jpg/pro-1.jpg" alt="Software Screenshot" class="projects__row-img" loading="lazy" />
+          </div>
+          <div class="projects__row-content">
+            <h3 class="projects__row-content-title">CzarymaryOkulary</h3>
+            <p class="projects__row-content-desc">
+              Kompleksowy serwis online dla marki oferującej designerskie okulary.
+              Projekt wyróżnia się responsywną strukturą, zoptymalizowaną wydajnością i przyjaznym dla użytkownika
+              systemem nawigacji.
+              Dodatkowo wprowadziłem zaawansowane funkcje SEO,
+              co przełożyło się na lepszą widoczność w wyszukiwarkach.
+            </p>
+            <a href="./project-1.html" class="btn btn--med btn--theme dynamicBgClr" target="_blank">Pokaż więcej</a>
+          </div>
+        </div>
+        <div class="projects__row">
+          <div class="projects__row-img-cont">
+            <img src="./assets/jpg/pro-2.jpg" alt="Software Screenshot" class="projects__row-img" loading="lazy" />
+          </div>
+          <div class="projects__row-content">
+            <h3 class="projects__row-content-title">Wallet</h3>
+            <p class="projects__row-content-desc">
+              Aplikacja do zarządzania finansami osobistymi, zaprojektowana z myślą o prostocie i użyteczności.
+              Rozwiązanie integruje technologie React.js, Node.js/Express i MongoDB,
+              zapewniając użytkownikom intuicyjne narzędzia do śledzenia wydatków oraz realizacji celów
+              oszczędnościowych.
+            </p>
+            <a href="./project-2.html" class="btn btn--med btn--theme dynamicBgClr" target="_blank">Pokaż więcej</a>
+          </div>
+        </div>
+        <div class="projects__row">
+          <div class="projects__row-img-cont">
+            <img src="./assets/jpg/pro-3.jpg" alt="Software Screenshot" class="projects__row-img" loading="lazy" />
+          </div>
+          <div class="projects__row-content">
+            <h3 class="projects__row-content-title">Filmoteka</h3>
+            <p class="projects__row-content-desc">
+              Minimalistyczna aplikacja umożliwiająca wyszukiwanie i przeglądanie filmów na podstawie zewnętrznego API.
+              Dzięki zastosowaniu czystego JavaScript, HTML i CSS,
+              aplikacja jest lekka, szybka i responsywna,
+              gwarantując płynność działania na każdej platformie.
+            </p>
+            <a href="./project-3.html" class="btn btn--med btn--theme dynamicBgClr" target="_blank">Pokaż więcej</a>
+          </div>
+
+        </div>
+
+        <div class="projects__row">
+          <div class="projects__row-img-cont">
+            <img src="./assets/jpg/pro-4.jpg" alt="Software Screenshot" class="projects__row-img" loading="lazy" />
+          </div>
+          <div class="projects__row-content">
+            <h3 class="projects__row-content-title">WebStudio</h3>
+            <p class="projects__row-content-desc">
+              Responsywna strona internetowa zaprojektowana dla agencji kreatywnej.
+              Strona wyróżnia się minimalistycznym, nowoczesnym designem i intuicyjną nawigacją,
+              co ułatwia użytkownikom zapoznanie się z ofertą.
+              Projekt został zrealizowany w HTML, CSS i JavaScript,
+              z optymalizacją pod kątem szybkości działania.
+            </p>
+            <a href="./project-3.html" class="btn btn--med btn--theme dynamicBgClr" target="_blank">Pokaż więcej</a>
+          </div>
+
+        </div>
+
+        <div class="projects__row">
+          <div class="projects__row-img-cont">
+            <img src="./assets/jpg/pro-5.jpg" alt="Software Screenshot" class="projects__row-img" loading="lazy" />
+          </div>
+          <div class="projects__row-content">
+            <h3 class="projects__row-content-title">Rick and Morty Wiki</h3>
+            <p class="projects__row-content-desc">
+              Aplikacja webowa pozwalająca na przeglądanie postaci z popularnego serialu "Rick and Morty".
+              Dzięki integracji z API użytkownicy mogą sprawdzać szczegóły dotyczące bohaterów, ich statusu oraz
+              pochodzenia.
+              W projekcie wykorzystano React.js,
+              co zapewniło dynamiczne działanie i przyjazny dla użytkownika interfejs.
+            </p>
+            <a href="./project-3.html" class="btn btn--med btn--theme dynamicBgClr" target="_blank">Pokaż więcej</a>
+          </div>
+        </div>
+
+        <div class="projects__row">
+          <div class="projects__row-img-cont">
+            <img src="./assets/jpg/pro-6.jpg" alt="Software Screenshot" class="projects__row-img" loading="lazy" />
+          </div>
+          <div class="projects__row-content">
+            <h3 class="projects__row-content-title">IceCream</h3>
+            <p class="projects__row-content-desc">
+              Strona internetowa stworzona dla lodziarni, łącząca atrakcyjny design z funkcjonalnością. Projekt obejmuje
+              prezentację oferty, lokalizacji oraz opinii klientów. Strona została wykonana w HTML, CSS i JavaScript, z
+              naciskiem na responsywność i estetykę wizualną.
+            </p>
+            <a href="./project-3.html" class="btn btn--med btn--theme dynamicBgClr" target="_blank">Pokaż więcej</a>
+          </div>
+        </div>
+
+
+        <div class="projects__row">
+          <div class="projects__row-img-cont">
+            <img src="./assets/jpg/pro-7.jpg" alt="Software Screenshot" class="projects__row-img" loading="lazy" />
+          </div>
+          <div class="projects__row-content">
+            <h3 class="projects__row-content-title">Portfolio</h3>
+            <p class="projects__row-content-desc">
+              Interaktywna strona internetowa prezentująca moje umiejętności jako fullstack developera. Zawiera
+              szczegółowe informacje o moim doświadczeniu, wybrane projekty oraz wykorzystane technologie. Strona jest
+              responsywna, przejrzysta i zoptymalizowana pod kątem UX/UI, stanowiąc przykład moich kompetencji w
+              tworzeniu aplikacji webowych.
+            </p>
+            <a href="./project-7.html" class="btn btn--med btn--theme dynamicBgClr" target="_blank">Pokaż więcej</a>
+          </div>
+        </div>
+
+
+        <div class="projects__row">
+          <div class="projects__row-img-cont">
+            <img src="./assets/jpg/pro-8.jpg" alt="Software Screenshot" class="projects__row-img" loading="lazy" />
+          </div>
+          <div class="projects__row-content">
+            <h3 class="projects__row-content-title">NaŚcieżce.pl</h3>
+            <p class="projects__row-content-desc">
+              Platforma internetowa dla miłośników kolarstwa, łącząca sklep rowerowy z usługami serwisowymi. Moim
+              zadaniem było zaprojektowanie oraz wdrożenie bazy danych, co umożliwiło sprawne zarządzanie informacjami o
+              produktach, klientach i usługach. Strona oparta na platformie home.pl, oferuje intuicyjny interfejs oraz
+              płynne zakupy online.
+            </p>
+            <a href="./project-8.html" class="btn btn--med btn--theme dynamicBgClr" target="_blank">Pokaż więcej</a>
+          </div>
+        </div>
+
+
+        <div class="projects__row">
+          <div class="projects__row-img-cont">
+            <img src="./assets/jpg/pro-9.jpg" alt="Software Screenshot" class="projects__row-img" loading="lazy" />
+          </div>
+          <div class="projects__row-content">
+            <h3 class="projects__row-content-title">CozmoBike.pl</h3>
+            <p class="projects__row-content-desc">
+              Platforma stworzona z myślą o entuzjastach turystyki rowerowej. Projekt obejmował integrację zewnętrznych
+              systemów, rozwój serwisu oraz optymalizację działania sklepu online. Strona łączy funkcje e-commerce z
+              bogatą bazą wiedzy dla rowerzystów, oferując nowoczesny design i wygodne doświadczenie użytkownika.
+            </p>
+            <a href="./project-9.html" class="btn btn--med btn--theme dynamicBgClr" target="_blank">Pokaż więcej</a>
+          </div>
+        </div>
+
+
+      </div>
+    </div>
+    </div>
+  </section>
+
+  <section id="contact" class="contact sec-pad dynamicBg">
+
+    <div class="main-container">
+      <h2 class="heading heading-sec heading-sec__mb-med">
+        <span class="heading-sec__main heading-sec__main--lt">Kontakt</span>
+        <span class="heading-sec__sub heading-sec__sub--lt">
+          Masz pytania lub chcesz nawiązać współpracę? Wypełnij formularz kontaktowy,
+          a odpowiemy na Twoją wiadomość najszybciej, jak to możliwe.
+          Jestem tu, aby pomóc!
+        </span>
+      </h2>
+      <div class="contact__form-container">
+        <form class="contact__form">
+          <div class="contact__form-field">
+            <label class="contact__form-label" for="name">Imię</label>
+            <input required placeholder="Imie" type="text" class="contact__form-input" name="name" id="name" />
+          </div>
+
+          <div class="contact__form-field">
+            <label class="contact__form-label" for="subject">Temat</label>
+            <input required placeholder="Temat" type="text" class="contact__form-input" name="subject" id="subject" />
+          </div>
+
+          <div class="contact__form-field">
+            <label class="contact__form-label" for="email">Email</label>
+            <input required placeholder="E-mail" type="text" class="contact__form-input" name="email" id="email" />
+          </div>
+          <div class="contact__form-field">
+            <label class="contact__form-label" for="message">Wiadomość</label>
+            <textarea required cols="30" rows="10" class="contact__form-input" placeholder="Uzupełnij wiadomość"
+              name="message" id="message"></textarea>
+          </div>
+          <button type="submit" onclick="sendMail(event)" class="btn btn--theme contact__btn">
+            Wyślij
+          </button>
+
+        </form>
+      </div>
+    </div>
+  </section>
+
+  </div>
+
+  <!-- Slider main container -->
+  <footer class="main-footer">
+    <div class="main-container">
+      <div class="main-footer__upper">
+        <div class="main-footer__row main-footer__row-1">
+          <h2 class="heading heading-sm main-footer__heading-sm">
+            <span>Znajdź mnie</span>
+          </h2>
+          <div class="main-footer__social-cont">
+            <a target="_blank" rel="noreferrer" href="#">
+              <img class="main-footer__icon" src="./assets/png/linkedin-ico.png" alt="icon" />
+            </a>
+            <a target="_blank" rel="noreferrer" href="#">
+              <img class="main-footer__icon" src="./assets/png/github-ico.png" alt="icon" />
+            </a>
+
+            <a target="_blank" rel="noreferrer" href="mailto:damiantchorzewski0@gmail.com">
+              <img class="main-footer__icon" src="./assets/png/email-ico.png" alt="icon" />
+            </a>
+            <a target="_blank" rel="noreferrer" href="tel:+48535780277">
+              <img class="main-footer__icon main-footer__icon--mr-none" src="./assets/png/phone-ico.png" alt="icon" />
+            </a>
+          </div>
+        </div>
+        <div class="main-footer__row main-footer__row-2">
+          <h4 class="heading heading-sm text-lt">Zrealizuj swoje pomysły!</h4>
+          <p class="main-footer__short-desc">
+            Masz pytania lub potrzebujesz wsparcia? Skontaktuj się ze mną – pomogę w stworzeniu projektu, który spełni
+            Twoje oczekiwania.
+          </p>
+        </div>
+      </div>
+
+      <!-- If you give me some credit or shoutout here by linking to my website, then it will be a big thing for me and will help me a lot :) -->
+      <div class="main-footer__lower">
+        &copy; Copyright 2024. Made by
+        <a rel="" target="_blank" href="https://github.com/DamTchorzewski">Damian Tchorzewski</a>
+      </div>
+    </div>
+  </footer>
+
+  <script src="./index.js"></script>
+
+  <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/@emailjs/browser@4/dist/email.min.js">
+  </script>
+  <script type="text/javascript">
+    (function () {
+      emailjs.init({
+        publicKey: "WVRmbCav6rYYoe6eI",
+      });
+    })();
+  </script>
+
+  <script>
+    function sendMail(event) {
+      event.preventDefault(); // Zapobiega przeładowaniu strony po kliknięciu przycisku.
+
+      const parms = {
+        name: document.getElementById("name").value.trim(),
+        email: document.getElementById("email").value.trim(),
+        subject: document.getElementById("subject").value.trim(),
+        message: document.getElementById("message").value.trim(),
+      };
+
+      // Walidacja danych
+      if (!parms.name || !parms.email || !parms.subject || !parms.message) {
+        alert("Proszę wypełnić wszystkie pola formularza.");
+        return;
+      }
+      emailjs
+        .send("service_vohcmkk", "template_l7eva98", parms)
+        .then(() => {
+          alert("Email został pomyślnie wysłany!");
+          // Opcjonalnie reset formularza
+          document.querySelector(".contact__form").reset();
+        })
+        .catch((error) => {
+          console.error("Błąd podczas wysyłania e-maila:", error);
+          alert("Wystąpił problem z wysłaniem e-maila. Spróbuj ponownie.");
+        });
+    }
+
+  </script>
+  <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+  <script>
+    var swiper = new Swiper(".mySwiper", {
+      effect: "cards",
+      grabCursor: true,
+    });
+  </script>
+  <script>
+    const tabs = document.querySelectorAll('.tab_btn');
+    const allContent = document.querySelectorAll('.skills');
+    const line = document.querySelector('.line');
+
+    // Funkcja do ustawiania szerokości i pozycji linii
+    function updateLine(tab) {
+      line.style.width = `${tab.offsetWidth}px`;
+      line.style.left = `${tab.offsetLeft}px`;
+    }
+
+    // Inicjalizacja: ustawienie początkowej pozycji linii
+    if (tabs.length > 0) {
+      tabs[0].classList.add('active'); // Pierwsza zakładka aktywna domyślnie
+      updateLine(tabs[0]);
+      allContent[0].classList.add('active'); // Pierwsza treść aktywna domyślnie
+    }
+
+    tabs.forEach((tab, index) => {
+      tab.addEventListener('click', () => {
+        // Dezaktywuj wszystkie zakładki i treści
+        tabs.forEach(tab => tab.classList.remove('active'));
+        allContent.forEach(content => content.classList.remove('active'));
+
+        // Aktywuj klikniętą zakładkę i odpowiednią treść
+        tab.classList.add('active');
+        allContent[index].classList.add('active');
+
+        // Aktualizuj linię
+        updateLine(tab);
+      });
+    });
+
+    // Obsługa zmiany rozmiaru okna, aby linia pozostała na swoim miejscu
+    window.addEventListener('resize', () => {
+      const activeTab = document.querySelector('.tab_btn.active');
+      if (activeTab) updateLine(activeTab);
+    });
+
+  </script>
+  <script>
+    document.addEventListener('DOMContentLoaded', () => {
+      const experienceSection = document.querySelector('.experience');
+      const expBoxes = document.querySelectorAll('.exp-box');
+
+      const observerOptions = {
+        root: null, // obserwuje viewport
+        threshold: 0.1, // uruchamia, gdy co najmniej 10% elementu jest widoczne
+      };
+
+      const observerCallback = (entries, observer) => {
+        entries.forEach(entry => {
+          if (entry.isIntersecting) {
+            // Dodaj klasę uruchamiającą animację
+            expBoxes.forEach((box, index) => {
+              box.style.animationDelay = `${index * 1}s`;
+              box.classList.add('animate');
+            });
+            observer.unobserve(entry.target); // przestań obserwować sekcję
+          }
+        });
+      };
+
+      const observer = new IntersectionObserver(observerCallback, observerOptions);
+
+      if (experienceSection) {
+        observer.observe(experienceSection);
+      }
+    });
+
+  </script>
+  <script>
+    var titles = document.querySelectorAll('.service_title');
+    var service_descriptions = document.querySelectorAll('.service_des');
+    var icons = document.querySelectorAll('.ri-add-fill');
+    var Headings = document.querySelectorAll('.service_title h4');
+
+    titles.forEach((title, index) => {
+      title.addEventListener('click', () => {
+        var isActive = service_descriptions[index].classList.contains('ActiveDesc');
+
+        service_descriptions.forEach((desc) => {
+          desc.classList.remove('ActiveDesc')
+        });
+        icons.forEach((icon) => {
+          icon.classList.remove('ri-subtract-line');
+        });
+        Headings.forEach((Heading) => {
+          Heading.classList.remove('ActiveHeading');
+        });
+        if (!isActive) {
+          service_descriptions[index].classList.add('ActiveDesc');
+          icons[index].classList.toggle('ri-subtract-line');
+          Headings[index].classList.toggle('ActiveHeading');
+        }
+      });
+    });
+
+  </script>
+</body>
+
 </html>

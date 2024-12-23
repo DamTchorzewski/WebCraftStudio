@@ -1,10 +1,14 @@
 .header {
   position: fixed;
   width: 100%;
+  top:0;
   z-index: 1000;
   background: #000;
   background: #fff;
-  box-shadow: 0 10px 100px rgba(0, 0, 0, 0.1);
+  box-shadow: 0 10px 100px rgba(0, 0, 0, 0.2);
+
+
+  
 
   &__content {
     display: flex;
@@ -26,10 +30,11 @@
     &:hover {
       color: $themeClrPrimary;
     }
+    
   }
   &__logo-img-cont {
-    width: 5rem;
-    height: 5rem;
+    width: 7rem;
+    height: 7rem;
     border-radius: 50px;
     overflow: hidden;
     margin-right: 1.5rem;
@@ -146,3 +151,67 @@
     border-bottom: 0;
   }
 }
+
+
+
+
+.dynamic-txts {
+  font-size: 1.8rem;
+  text-transform: uppercase;
+  font-weight: 700;
+  letter-spacing: 1px;
+  min-width: 280px;
+}
+
+.dynamic-txts  span{
+  position: relative;
+}
+
+.dynamic-txts  span::before{
+content: "Tchorzewski";
+color: $themeClrPrimary;
+animation: words 20s infinite;
+}
+
+.dynamic-txts  span::after{
+  content: "";
+  position: absolute;
+  width: calc(100% + 8px);
+  height: 100%;
+  background-color: #fff;
+  border-left: 2px solid $themeClrPrimary;
+  right: -8px;
+  animation: cursor .8s infinite, typing 20s steps(14) infinite;
+  }
+
+  @keyframes cursor {
+    to{
+      border-left: 2px solid #fff;
+  }
+  }
+
+  @keyframes words {
+      0%,25%{
+  content: "Tchorzewski";
+}
+26%,40%{
+  content: "Designer";
+}
+41%,65%{
+  content: "Engineer";
+}
+66%,75%{
+  content: "Developer";
+}
+
+
+  }
+
+  @keyframes typing {
+    10%,15%,30%,35%,50%,55%,70%,75%,90%,95%{
+      width: 0;
+    }
+    5%,20%,25%,40%,45%,60%,65%,80%,85%{
+      width: calc(100% + 8px);
+    }
+  }

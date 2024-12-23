@@ -1,6 +1,8 @@
 .skills {
-  display: flex;
+  display: none;
   flex-wrap: wrap;
+  justify-content: center;
+  
   &__skill {
     padding: 1rem 2rem;
     margin-bottom: 1.5rem;
@@ -9,6 +11,11 @@
     background: rgba(#999, 0.2);
     border-radius: $commonBorderRadius;
     font-weight: 600;
-    color: #777;
+    color: #d1d1d1;
   }
 }
+
+.skills.active{
+  display: flex;
+}
+

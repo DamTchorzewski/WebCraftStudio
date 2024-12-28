@@ -19,3 +19,49 @@
   display: flex;
 }
 
+.tab_box{
+  border-bottom: 2px solid #666;
+  margin-bottom: 20px;
+  position: relative;
+   display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+  @media (max-width: 37.5em) {
+   
+    
+    
+  } 
+  
+  }
+  
+  
+  
+  
+  .tab_btn{
+    font-size: 25px;
+    font-weight: 700;
+    border: none;
+    background: none;
+    color: #d1d1d1;
+  cursor: pointer;
+  padding: 5px;
+      
+    }
+  
+   .tab_btn.active{
+      color:$themeClrPrimary;
+    }
+  .line{
+    position: absolute;
+  height: 5px;
+  top: 35px;
+  background-color: $themeClrPrimary;
+  border-radius: 10px;
+  transition: all .4s ease-in-out ;
+  
+  @media (max-width: 37.5em) {
+    display: none;
+  } 
+  }
+
+

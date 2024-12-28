@@ -1,8 +1,10 @@
 .main-footer {
   background-image: url(../../assets/jpg/footer-bg.jpg);
   background-size: contain;
-  
-  color: #1b2735;
+  width: 100% ;
+  max-width: 1920px;
+  margin: 0 auto;
+   
   &__upper {
     display: flex;
     justify-content: space-between;

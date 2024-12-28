@@ -6,17 +6,25 @@
   background: #000;
   background: #fff;
   box-shadow: 0 10px 100px rgba(0, 0, 0, 0.2);
-
-
   
 
+  
+  
+
+ 
+
+
   &__content {
+    width: 100%;
+    max-width: 1920px;
+    margin: 0 auto;
     display: flex;
     align-items: center;
     justify-content: space-between;
     padding: 1rem 5rem;
     @include respond(tab-port) {
       padding: 0 2rem;
+      
     }
   }
 
@@ -54,7 +62,7 @@
     display: block;
   }
   &__logo-sub {
-    font-size: 1.8rem;
+    font-size: 2rem;
     text-transform: uppercase;
     font-weight: 700;
     letter-spacing: 1px;
@@ -68,7 +76,7 @@
   &__link {
     padding: 2.2rem 3rem;
     display: inline-block;
-    font-size: 1.6rem;
+    font-size: 14px;
     color: #333;
     text-transform: uppercase;
     letter-spacing: 1px;
@@ -156,7 +164,7 @@
 
 
 .dynamic-txts {
-  font-size: 1.8rem;
+  font-size: 1.5rem;
   text-transform: uppercase;
   font-weight: 700;
   letter-spacing: 1px;
@@ -192,16 +200,16 @@ animation: words 20s infinite;
 
   @keyframes words {
       0%,25%{
-  content: "Tchorzewski";
+  content: "Developer";
 }
 26%,40%{
-  content: "Designer";
-}
-41%,65%{
   content: "Engineer";
 }
+41%,65%{
+  content: "Designer";
+}
 66%,75%{
-  content: "Developer";
+  content: "Analyst";
 }
 
 

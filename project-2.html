@@ -1,230 +1,275 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
-    <title>Case Study of Project 2</title>
-    <meta name="description" content="Case study page of Project" />
 
-    <link rel="stylesheet" href="css/style.css" />
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+  <title>Project Wallet</title>
+  <meta name="description" content="Case study page of Project" />
 
-    <link rel="preconnect" href="https://fonts.googleapis.com" />
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-    <link
-      href="https://fonts.googleapis.com/css2?family=Source+Sans+Pro:wght@400;600;700;900&display=swap"
-      rel="stylesheet"
-    />
-  </head>
-  <body>
-    <header class="header">
-      <div class="header__content">
-        <div class="header__logo-container">
-          <div class="header__logo-img-cont">
-            <img
-              src="./assets/png/john-doe.png"
-              alt="Ram Maheshwari Logo Image"
-              class="header__logo-img"
-            />
-          </div>
-          <span class="header__logo-sub">John Doe</span>
+  <link rel="stylesheet" href="css/style.css" />
+  <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css" />
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link rel="icon" type="image/x-icon" href="/assets/png/favicon.png">
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,400;0,700;0,900;1,700;1,900&display=swap"
+    rel="stylesheet">
+</head>
+
+<body>
+  <header class="header">
+    <div class="header__content">
+      <div class="header__logo-container">
+
+        <!--<div class="header__logo-img-cont">
+          <img
+            src="./assets/png/avatar.png"
+            alt=""
+            class="header__logo-img"
+          />
         </div>
-        <div class="header__main">
-          <ul class="header__links">
-            <li class="header__link-wrapper">
-              <a href="./index.html" class="header__link"> Home </a>
-            </li>
-            <li class="header__link-wrapper">
-              <a href="./index.html#about" class="header__link">About </a>
-            </li>
-            <li class="header__link-wrapper">
-              <a href="./index.html#projects" class="header__link">
-                Projects
-              </a>
-            </li>
-            <li class="header__link-wrapper">
-              <a href="./index.html#contact" class="header__link"> Contact </a>
-            </li>
-          </ul>
-          <div class="header__main-ham-menu-cont">
-            <img
-              src="./assets/svg/ham-menu.svg"
-              alt="hamburger menu"
-              class="header__main-ham-menu"
-            />
-            <img
-              src="./assets/svg/ham-menu-close.svg"
-              alt="hamburger menu close"
-              class="header__main-ham-menu-close d-none"
-            />
+        -->
+        <div class="logo-animation">
+
+          <div class="dynamic-txts">Damian
+            <span></span>
           </div>
+
         </div>
       </div>
-      <div class="header__sm-menu">
-        <div class="header__sm-menu-content">
-          <ul class="header__sm-menu-links">
-            <li class="header__sm-menu-link">
-              <a href="./index.html"> Home </a>
-            </li>
-
-            <li class="header__sm-menu-link">
-              <a href="./index.html#about"> About </a>
-            </li>
-
-            <li class="header__sm-menu-link">
-              <a href="./index.html#projects"> Projects </a>
-            </li>
-
-            <li class="header__sm-menu-link">
-              <a href="./index.html#contact"> Contact </a>
-            </li>
-          </ul>
+      <div class="header__main">
+        <ul class="header__links">
+          <li class="header__link-wrapper">
+            <a href="./index.html" class="header__link"> Home </a>
+          </li>
+          <li class="header__link-wrapper">
+            <a href="./index.html#about" class="header__link">About me </a>
+          </li>
+          <li class="header__link-wrapper">
+            <a href="./index.html#services" class="header__link">Services </a>
+          </li>
+          <li class="header__link-wrapper">
+            <a href="./index.html#projects" class="header__link">
+              Projects
+            </a>
+          </li>
+          <li class="header__link-wrapper">
+            <a href="./index.html#contact" class="header__link"> Contact </a>
+          </li>
+        </ul>
+        <div class="header__main-ham-menu-cont">
+          <img src="./assets/svg/ham-menu.svg" alt="hamburger menu" class="header__main-ham-menu" />
+          <img src="./assets/svg/ham-menu-close.svg" alt="hamburger menu close"
+            class="header__main-ham-menu-close d-none" />
         </div>
       </div>
-    </header>
-    <section class="project-cs-hero">
-      <div class="project-cs-hero__content">
-        <h1 class="heading-primary">Project 2</h1>
-        <div class="project-cs-hero__info">
-          <p class="text-primary">
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Dignissimos
-            in numquam incidunt earum quaerat cum fuga, atque similique natus
-            nobis sit.
+    </div>
+    <div class="header__sm-menu">
+      <div class="header__sm-menu-content">
+        <ul class="header__sm-menu-links">
+          <li class="header__sm-menu-link">
+            <a href="./index.html"> Home </a>
+          </li>
+
+          <li class="header__sm-menu-link">
+            <a href="./index.html#about"> About </a>
+          </li>
+
+          <li class="header__sm-menu-link">
+            <a href="./index.html#projects"> Projects </a>
+          </li>
+
+          <li class="header__sm-menu-link">
+            <a href="./index.html#services"> Services </a>
+          </li>
+
+          <li class="header__sm-menu-link">
+            <a href="./index.html#contact"> Contact </a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </header>
+
+  <section class="project-cs-hero-2">
+    <div class="project-cs-hero__content">
+      <h1 class="heading-primary">Wallet</h1>
+      <div class="project-cs-hero__info">
+        <p class="text-primary">
+          Wallet is a modern financial management application that helps users track expenses, create budgets, and
+          analyze their spending habits. The platform features a clean, responsive design, optimized performance, and
+          seamless user navigation. Additionally, advanced data visualization tools provide actionable insights for
+          better financial decisions.
+        </p>
+      </div>
+      <div class="project-cs-hero__cta">
+        <a href="https://damtchorzewski.github.io/S7venSurvivors-Wallet/" class="btn btn--bg" target="_blank">Live
+          Link</a>
+      </div>
+    </div>
+  </section>
+  <section class="project-details">
+
+    <div class="project-details__content">
+      <div class="project-details__showcase-img-cont">
+
+        <img src="./assets/jpg/pro-2.jpg" alt="Project Image" class="project-details__showcase-img" />
+      </div>
+      <div class="project-details__content-main">
+        <div class="project-details__desc">
+          <h3 class="project-details__content-title">Project Overview</h3>
+          <p class="project-details__desc-para">
+            Wallet is a digital tool designed to simplify personal finance management. The project focuses on providing
+            a user-friendly platform for tracking expenses, managing budgets, and generating financial reports. Wallet's
+            interface is optimized for both desktop and mobile devices, ensuring accessibility on the go.
+          </p>
+          <ul>
+            <li>
+              <h4>User Dashboard</h4>
+              <p>Interactive dashboard displaying real-time data such as spending categories, income streams, and budget
+                performance.</p>
+            </li>
+            <li>
+              <h4>Budget Tracking</h4>
+              <p>Customizable budget tools allowing users to set financial goals, monitor their progress, and receive
+                notifications for overspending.</p>
+            </li>
+            <li>
+              <h4>Data Visualization</h4>
+              <p>Comprehensive charts and graphs to help users understand their financial habits and make informed
+                decisions.</p>
+            </li>
+
+            <li>
+              <h4>Security</h4>
+              <p>State-of-the-art encryption ensures user data is protected at all times.</p>
+            </li>
+          </ul>
+
+          <h3>Unique Project Features:</h3>
+          <ul>
+            <li><strong>Design:</strong>
+              <p>Minimalist and intuitive design emphasizing usability and clarity of financial data.</p>
+            </li>
+            <li><strong>Mobile Optimization:</strong>
+              <p>Fully responsive platform designed for a seamless experience on all devices.</p>
+            </li>
+            <li><strong>Data Insights:</strong>
+              <p>Advanced analytics tools offering actionable insights for better financial planning.</p>
+            </li>
+          </ul>
+
+
+          <h3>Project Outcomes:</h3>
+          <ul>
+
+            <li>Enhanced user engagement due to the intuitive interface and detailed financial insights.</li>
+            <li>Improved user financial literacy and decision-making through actionable reports.</li>
+
+            <li>Increased user trust and satisfaction due to high data security standards.</li>
+
+          </ul>
+        </div>
+        <div class="project-details__tools-used">
+          <h3 class="project-details__content-title">Tools Used</h3>
+          <div class="pro-skills">
+            <div class="pro-skill">HTML</div>
+            <div class="pro-skill">CSS</div>
+            <div class="pro-skill">JavaScript</div>
+            <div class="pro-skill">Node</div>
+            <div class="pro-skill">MongoDb</div>
+            <div class="pro-skill">React</div>
+            <div class="pro-skill">Jest</div>
+            <div class="pro-skill">Notiflix</div>
+            <div class="pro-skill">Responsive Design</div>
+            <div class="pro-skill">Android</div>
+            <div class="pro-skill">iOS</div>
+            <div class="pro-skill">SEO</div>
+            <div class="pro-skill">Performance Optimization</div>
+            <div class="pro-skill">Nanoid</div>
+            <div class="pro-skill">UX/UI Design</div>
+            <div class="pro-skill">Bcrypt</div>
+            <div class="pro-skill">Redux</div>
+            <div class="pro-skill">Api</div>
+            <div class="pro-skill">Mongoose</div>
+            <div class="pro-skill">Nodemailer</div>
+            <div class="pro-skill">Cors</div>
+            <div class="pro-skill">Loader</div>
+
+
+          </div>
+        </div>
+        <div class="project-details__links">
+          <h3 class="project-details__content-title">See Live</h3>
+          <a href="https://damtchorzewski.github.io/S7venSurvivors-Wallet/"
+            class="btn btn--med btn--theme project-details__links-btn" target="_blank">Live Link</a>
+          <!---<a href="#" class="btn btn--med btn--theme-inv project-details__links-btn" target="_blank">Code Link</a>
+        -->
+        </div>
+      </div>
+    </div>
+
+  </section>
+  <footer class="main-footer">
+    <div class="main-container">
+      <div class="main-footer__upper">
+        <div class="main-footer__row main-footer__row-1">
+          <h2 class="heading heading-sm main-footer__heading-sm">
+            <span>Find Me</span>
+          </h2>
+          <div class="main-footer__social-cont">
+            <a target="_blank" rel="noreferrer" href="#">
+              <img class="main-footer__icon" src="./assets/png/linkedin-ico.png" alt="icon" />
+            </a>
+            <a target="_blank" rel="noreferrer" href="#">
+              <img class="main-footer__icon" src="./assets/png/github-ico.png" alt="icon" />
+            </a>
+
+            <a target="_blank" rel="noreferrer" href="mailto:damiantchorzewski0@gmail.com">
+              <img class="main-footer__icon" src="./assets/png/email-ico.png" alt="icon" />
+            </a>
+            <a target="_blank" rel="noreferrer" href="tel:+48535780277">
+              <img class="main-footer__icon main-footer__icon--mr-none" src="./assets/png/phone-ico.png" alt="icon" />
+            </a>
+          </div>
+        </div>
+        <div class="main-footer__row main-footer__row-2">
+          <h4 class="heading heading-sm text-lt">Bring Your Ideas to Life!</h4>
+          <p class="main-footer__short-desc">
+            Have questions or need support? Get in touch with me—I’ll help create a project that meets your
+            expectations.
           </p>
         </div>
-        <div class="project-cs-hero__cta">
-          <a href="#" class="btn btn--bg" target="_blank">Live Link</a>
-        </div>
       </div>
-    </section>
-    <section class="project-details">
-      <div class="main-container">
-        <div class="project-details__content">
-          <div class="project-details__showcase-img-cont">
-            <img
-              src="./assets/jpeg/project-mockup-example.jpeg"
-              alt="Project Image"
-              class="project-details__showcase-img"
-            />
-          </div>
-          <div class="project-details__content-main">
-            <div class="project-details__desc">
-              <h3 class="project-details__content-title">Project Overview</h3>
-              <p class="project-details__desc-para">
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. Neque
-                alias tenetur minus quaerat aliquid, aut provident blanditiis,
-                deleniti aspernatur ipsam eaque veniam voluptatem corporis vitae
-                mollitia laborum corrupti ullam rem. Lorem ipsum dolor sit amet
-                consectetur adipisicing elit. Neque alias tenetur minus quaerat
-                aliquid, aut provident blanditiis, deleniti aspernatur ipsam
-                eaque veniam voluptatem corporis vitae mollitia laborum corrupti
-                ullam rem?
-              </p>
-              <p class="project-details__desc-para">
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. Neque
-                alias tenetur minus quaerat aliquid, aut provident blanditiis,
-                deleniti aspernatur ipsam eaque veniam voluptatem corporis vitae
-                mollitia laborum corrupti ullam rem?
-              </p>
-            </div>
-            <div class="project-details__tools-used">
-              <h3 class="project-details__content-title">Tools Used</h3>
-              <div class="skills">
-                <div class="skills__skill">HTML</div>
-                <div class="skills__skill">CSS</div>
-                <div class="skills__skill">JavaScript</div>
-                <div class="skills__skill">React</div>
-                <div class="skills__skill">SASS</div>
-                <div class="skills__skill">GIT</div>
-                <div class="skills__skill">Shopify</div>
-                <div class="skills__skill">Wordpress</div>
-                <div class="skills__skill">Google ADS</div>
-                <div class="skills__skill">Facebook Ads</div>
-                <div class="skills__skill">Android</div>
-                <div class="skills__skill">IOS</div>
-              </div>
-            </div>
-            <div class="project-details__links">
-              <h3 class="project-details__content-title">See Live</h3>
-              <a
-                href="#"
-                class="btn btn--med btn--theme project-details__links-btn"
-                target="_blank"
-                >Live Link</a
-              >
-              <a
-                href="#"
-                class="btn btn--med btn--theme-inv project-details__links-btn"
-                target="_blank"
-                >Code Link</a
-              >
-            </div>
-          </div>
-        </div>
-      </div>
-    </section>
-    <footer class="main-footer">
-      <div class="main-container">
-        <div class="main-footer__upper">
-          <div class="main-footer__row main-footer__row-1">
-            <h2 class="heading heading-sm main-footer__heading-sm">
-              <span>Social</span>
-            </h2>
-            <div class="main-footer__social-cont">
-              <a target="_blank" rel="noreferrer" href="#">
-                <img
-                  class="main-footer__icon"
-                  src="./assets/png/linkedin-ico.png"
-                  alt="icon"
-                />
-              </a>
-              <a target="_blank" rel="noreferrer" href="#">
-                <img
-                  class="main-footer__icon"
-                  src="./assets/png/github-ico.png"
-                  alt="icon"
-                />
-              </a>
-              <a target="_blank" rel="noreferrer" href="#">
-                <img
-                  class="main-footer__icon"
-                  src="./assets/png/twitter-ico.png"
-                  alt="icon"
-                />
-              </a>
-              <a target="_blank" rel="noreferrer" href="#">
-                <img
-                  class="main-footer__icon"
-                  src="./assets/png/yt-ico.png"
-                  alt="icon"
-                />
-              </a>
-              <a target="_blank" rel="noreferrer" href="#">
-                <img
-                  class="main-footer__icon main-footer__icon--mr-none"
-                  src="./assets/png/insta-ico.png"
-                  alt="icon"
-                />
-              </a>
-            </div>
-          </div>
-          <div class="main-footer__row main-footer__row-2">
-            <h4 class="heading heading-sm text-lt">John Doe</h4>
-            <p class="main-footer__short-desc">
-              Lorem ipsum dolor sit amet consectetur adipisicing elit facilis
-              tempora explicabo quae quod deserunt
-            </p>
-          </div>
-        </div>
 
-        <div class="main-footer__lower">
-          &copy; Copyright 2021. Made by
-          <a rel="noreferrer" target="_blank" href="https://rammaheshwari.com"
-            >Ram Maheshwari</a
-          >
-        </div>
+      <div class="main-footer__lower">
+        &copy; Copyright 2024. Made by
+        <a rel="" target="_blank" href="https://github.com/DamTchorzewski">Damian Tchorzewski</a>
       </div>
-    </footer>
-    <script src="./index.js"></script>
-  </body>
+    </div>
+  </footer>
+
+  <script src="./index.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+  <script>
+    var swiper = new Swiper(".mySwiper", {
+      slidesPerView: 1,
+      spaceBetween: 30,
+      loop: true,
+      pagination: {
+        el: ".swiper-pagination",
+        clickable: true,
+      },
+      navigation: {
+        nextEl: ".swiper-button-next",
+        prevEl: ".swiper-button-prev",
+      },
+    });
+
+  </script>
+
+</body>
+
 </html>

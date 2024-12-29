@@ -1,0 +1,38 @@
+<div class="main-container">
+    <h2 class="heading heading-sec heading-sec__mb-med">
+        <span class="heading-sec__main heading-sec__main--lt">Contact</span>
+        <span class="heading-sec__sub heading-sec__sub--lt">
+            Do you have questions or want to collaborate? Fill out the contact form,
+            and we’ll respond to your message as soon as possible.
+            I’m here to help!
+        </span>
+    </h2>
+    <div class="contact__form-container">
+        <form class="contact__form">
+            <div class="contact__form-field">
+                <label class="contact__form-label" for="name">Name</label>
+                <input required placeholder="Name" type="text" class="contact__form-input" name="name" id="name" />
+            </div>
+
+            <div class="contact__form-field">
+                <label class="contact__form-label" for="subject">Subject</label>
+                <input required placeholder="Subject" type="text" class="contact__form-input" name="subject"
+                    id="subject" />
+            </div>
+
+            <div class="contact__form-field">
+                <label class="contact__form-label" for="email">Email</label>
+                <input required placeholder="Email" type="text" class="contact__form-input" name="email" id="email" />
+            </div>
+            <div class="contact__form-field">
+                <label class="contact__form-label" for="message">Message</label>
+                <textarea required cols="30" rows="10" class="contact__form-input" placeholder="Type your message"
+                    name="message" id="message"></textarea>
+            </div>
+            <button type="submit" onclick="sendMail(event)" class="btn btn--theme contact__btn">
+                Send
+            </button>
+
+        </form>
+    </div>
+</div>

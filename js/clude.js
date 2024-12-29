@@ -40,5 +40,9 @@ document.addEventListener("DOMContentLoaded", function () {
     if (typeof initializeSkills === "function") {
       initializeSkills();
     }
+
+    if (typeof initializeHeader === "function") {
+      initializeHeader();
+    }
   });
 });

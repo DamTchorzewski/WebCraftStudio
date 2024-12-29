@@ -5,172 +5,65 @@
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <meta http-equiv="X-UA-Compatible" content="ie=edge" />
-  <title>Dam Web Developer</title>
-  <meta name="description" content="Dam Web Developer" />
-  <link rel="stylesheet" href="css/style.css" />
+  <title>Dam Web Developer - Profesjonalne usługi webowe</title>
+  <meta name="description" content="Portfolio Dam Web Developer - nowoczesne strony internetowe i aplikacje." />
+  <meta name="author" content="Damian" />
+  <link rel="icon" type="image/x-icon" href="./assets/png/favicon.png">
+
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,400;0,700;0,900;1,700;1,900&display=swap"
     rel="stylesheet">
-  <link rel="icon" type="image/x-icon" href="./assets/png/favicon.png">
   <link href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" rel="stylesheet">
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/remixicon/4.6.0/remixicon.css">
   <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" rel="stylesheet" />
+
+  <link rel="stylesheet" href="css/style.css" />
 </head>
+
 
 <body>
 
-  <section class="home-hero">
-    <header class="header">
-      <div class="header__content">
-        <div class="header__logo-container">
+  <header class="header">
+    <div w3-include-html="html/header.html"></div>
+  </header>
 
-          <!--<div class="header__logo-img-cont">
-            <img
-              src="./assets/png/avatar.png"
-              alt=""
-              class="header__logo-img"
-            />
-          </div>
-          -->
-          <div class="logo-animation">
-            <a href="./index.html">
-              <div class="dynamic-txts">Damian
-                <span></span>
-              </div>
-            </a>
-          </div>
-        </div>
-        <div class=" header__main">
-          <ul class="header__links">
-            <li class="header__link-wrapper">
-              <a href="./index.html#stars" class="header__link"> Home </a>
-            </li>
-            <li class="header__link-wrapper">
-              <a href="./index.html#about" class="header__link">About me </a>
-            </li>
-            <li class="header__link-wrapper">
-              <a href="./index.html#services" class="header__link">Services </a>
-            </li>
-            <li class="header__link-wrapper">
-              <a href="./index.html#projects" class="header__link">
-                Projects
-              </a>
-            </li>
-            <li class="header__link-wrapper">
-              <a href="./index.html#contact" class="header__link"> Contact </a>
-            </li>
-          </ul>
-          <div class="header__main-ham-menu-cont">
-            <img src="./assets/svg/ham-menu.svg" alt="hamburger menu" class="header__main-ham-menu" />
-            <img src="./assets/svg/ham-menu-close.svg" alt="hamburger menu close"
-              class="header__main-ham-menu-close d-none" />
-          </div>
-        </div>
+  <main>
+    <section class="home-hero">
+      <div class="stars-box">
+        <section class="wrapper">
+          <div id="stars"></div>
+          <div id="stars2"></div>
+          <div id="stars3"></div>
+          <div w3-include-html="html/hero.html"></div>
+        </section>
       </div>
-      <div class="header__sm-menu">
-        <div class="header__sm-menu-content">
-          <ul class="header__sm-menu-links">
-            <li class="header__sm-menu-link">
-              <a href="./index.html#stars"> Home </a>
-            </li>
-
-            <li class="header__sm-menu-link">
-              <a href="./index.html#about"> About </a>
-            </li>
-
-            <li class="header__sm-menu-link">
-              <a href="./index.html#projects"> Projects </a>
-            </li>
-
-            <li class="header__sm-menu-link">
-              <a href="./index.html#services"> Services </a>
-            </li>
-
-            <li class="header__sm-menu-link">
-              <a href="./index.html#contact"> Contact </a>
-            </li>
-          </ul>
-        </div>
-      </div>
-    </header>
+    </section>
 
 
-    <div class="stars-box">
+    <section id="about" class="about sec-pad">
+      <div w3-include-html="html/about.html"></div>
+    </section>
+
+    <section>
+      <div w3-include-html="html/experience.html"></div>
+    </section>
 
 
-      <section class="wrapper">
-        <div id="stars"></div>
-        <div id="stars2"></div>
-        <div id="stars3"></div>
+    <section id="services">
+      <div w3-include-html="html/services.html"></div>
+    </section>
 
 
-        <div class="home-hero__content">
-          <h1 class="heading-primary">Full stack of possibilities, from vision to execution.</h1>
-          <div class="home-hero__info">
-            <p class="text-primary">
-              As a Developer, I adapt to challenges, creating solutions effective. Your ideas, my
-              technologies – let's build something exceptional together!
-            </p>
-          </div>
-          <div class="home-hero__cta">
-            <a href="./assets/pdf/CV_Pl_DamianT.pdf" download class="btn btn--bg">Download CV</a>
-          </div>
-        </div>
-        <div class="home-hero__socials">
-          <div class="home-hero__social">
-            <a href="https://www.linkedin.com/in/damian-tchorzewski-3b2388275/" target="_blank"
-              class="home-hero__social-icon-link">
-              <img src="./assets/png/linkedin-ico.png" alt="icon" class="home-hero__social-icon" />
-            </a>
-          </div>
-          <div class="home-hero__social">
-            <a href="https://github.com/DamTchorzewski?tab=repositories" target="_blank"
-              class="home-hero__social-icon-link">
-              <img src="./assets/png/github-ico.png" alt="icon" class="home-hero__social-icon" />
-            </a>
-          </div>
-          <div class="home-hero__social">
-            <a href="mailto:damiantchorzewski0@gmail.com" class="home-hero__social-icon-link">
-              <img src="./assets/png/email-ico.png" alt="icon" class="home-hero__social-icon" />
-            </a>
-          </div>
-          <div class="home-hero__social">
-            <a href="tel:+48535780277" class="home-hero__social-icon-link">
-              <img src="./assets/png/phone-ico.png" alt="icon" class="home-hero__social-icon" />
-            </a>
-          </div>
-
-        </div>
-        <div class="home-hero__mouse-scroll-cont">
-          <div class="mouse"></div>
-        </div>
-      </section>
-  </section>
-
-  <section id="about" class="about sec-pad">
-    <div w3-include-html="html/about.html"></div>
-  </section>
-
-  <section>
-    <div w3-include-html="html/experience.html"></div>
-  </section>
+    <section id="projects" class="projects sec-pad">
+      <div w3-include-html="html/projects.html"></div>
+    </section>
 
 
-  <section id="services">
-    <div w3-include-html="html/services.html"></div>
-  </section>
-
-
-  <section id="projects" class="projects sec-pad">
-    <div w3-include-html="html/projects.html"></div>
-  </section>
-
-
-  <section id="contact" class="contact sec-pad dynamicBg">
-    <div w3-include-html="html/contact.html"></div>
-  </section>
-
+    <section id="contact" class="contact sec-pad dynamicBg">
+      <div w3-include-html="html/contact.html"></div>
+    </section>
+  </main>
 
 
 
@@ -180,12 +73,12 @@
 
   <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
   <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/@emailjs/browser@4/dist/email.min.js"></script>
-  <script src="js/index.js"></script>
-  <script src="js/skills.js"></script>
-  <script src="js/swiper.js"></script>
-  <script src="js/services.js"></script>
-  <script src="js/email.js"></script>
-  <script src="js/clude.js"></script>
+  <script defer src="js/index.js"></script>
+  <script defer src="js/skills.js"></script>
+  <script defer src="js/swiper.js"></script>
+  <script defer src="js/services.js"></script>
+  <script defer src="js/email.js"></script>
+  <script defer src="js/clude.js"></script>
 
 </body>
 

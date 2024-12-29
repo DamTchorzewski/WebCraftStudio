@@ -32,5 +32,13 @@ document.addEventListener("DOMContentLoaded", function () {
     if (typeof initializeCertSwiper === "function") {
       initializeCertSwiper();
     }
+
+    if (typeof initializeServices === "function") {
+      initializeServices();
+    }
+
+    if (typeof initializeSkills === "function") {
+      initializeSkills();
+    }
   });
 });

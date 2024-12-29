@@ -1,7 +1,7 @@
 @mixin common-hero-styles($color1, $color2) {
   color: #fff;
   background: linear-gradient(to right, rgba($color1, 0.8), rgba($color2, 0.8)),
-  url("../../assets/svg/common-bg.svg");
+  url("/assets/svg/common-bg.svg");
   background-size: cover;
   background-position: center;
   position: relative;

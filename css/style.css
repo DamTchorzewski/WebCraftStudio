@@ -462,7 +462,7 @@ textarea {
 
 .project-cs-hero {
   color: #fff;
-  background: linear-gradient(to right, rgba(42, 158, 224, 0.8), rgba(77, 160, 81, 0.8)), url("assets/svg/common-bg.svg");
+  background: linear-gradient(to right, rgba(42, 158, 224, 0.8), rgba(77, 160, 81, 0.8)), url("/assets/svg/common-bg.svg");
   background-size: cover;
   background-position: center;
   position: relative;
@@ -500,7 +500,7 @@ textarea {
 
 .project-cs-hero-2 {
   color: #fff;
-  background: linear-gradient(to right, rgba(135, 112, 253, 0.8), rgba(255, 134, 110, 0.8)), url("assets/svg/common-bg.svg");
+  background: linear-gradient(to right, rgba(135, 112, 253, 0.8), rgba(255, 134, 110, 0.8)), url("/assets/svg/common-bg.svg");
   background-size: cover;
   background-position: center;
   position: relative;
@@ -538,7 +538,7 @@ textarea {
 
 .project-cs-hero-3 {
   color: #fff;
-  background: linear-gradient(to right, rgba(255, 0, 0, 0.8), rgba(61, 61, 61, 0.8)), url("assets/svg/common-bg.svg");
+  background: linear-gradient(to right, rgba(255, 0, 0, 0.8), rgba(61, 61, 61, 0.8)), url("/assets/svg/common-bg.svg");
   background-size: cover;
   background-position: center;
   position: relative;
@@ -576,7 +576,7 @@ textarea {
 
 .project-cs-hero-4 {
   color: #fff;
-  background: linear-gradient(to right, rgba(5, 134, 255, 0.8), rgba(0, 0, 0, 0.8)), url("assets/svg/common-bg.svg");
+  background: linear-gradient(to right, rgba(5, 134, 255, 0.8), rgba(0, 0, 0, 0.8)), url("/assets/svg/common-bg.svg");
   background-size: cover;
   background-position: center;
   position: relative;
@@ -614,7 +614,7 @@ textarea {
 
 .project-cs-hero-6 {
   color: #fff;
-  background: linear-gradient(to right, rgba(212, 20, 67, 0.8), rgba(255, 184, 202, 0.8)), url("assets/svg/common-bg.svg");
+  background: linear-gradient(to right, rgba(212, 20, 67, 0.8), rgba(255, 184, 202, 0.8)), url("/assets/svg/common-bg.svg");
   background-size: cover;
   background-position: center;
   position: relative;
@@ -652,7 +652,7 @@ textarea {
 
 .project-cs-hero-7 {
   color: #fff;
-  background: linear-gradient(to right, rgba(231, 151, 105, 0.8), rgba(20, 20, 20, 0.8)), url("assets/svg/common-bg.svg");
+  background: linear-gradient(to right, rgba(231, 151, 105, 0.8), rgba(20, 20, 20, 0.8)), url("/assets/svg/common-bg.svg");
   background-size: cover;
   background-position: center;
   position: relative;
@@ -690,7 +690,7 @@ textarea {
 
 .project-cs-hero-8 {
   color: #fff;
-  background: linear-gradient(to right, rgba(237, 22, 79, 0.8), rgba(0, 0, 0, 0.8)), url("assets/svg/common-bg.svg");
+  background: linear-gradient(to right, rgba(237, 22, 79, 0.8), rgba(0, 0, 0, 0.8)), url("/assets/svg/common-bg.svg");
   background-size: cover;
   background-position: center;
   position: relative;

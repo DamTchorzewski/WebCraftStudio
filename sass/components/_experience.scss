@@ -163,22 +163,31 @@
   font-size: 22px;
   font-weight: bold;
   color: #fff;
-  background-size: contain;
+  
   background-repeat: no-repeat;
   background-position: center;
 }
 
 .swiper-slide:nth-child(1n) {
-  background-image: url('/assets/png/c_fullStack.png');
- 
+  background: url("../assets/png/c_fullStack.png");
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center;
+  
 }
 
 .swiper-slide:nth-child(2n) {
-  background-image: url('/assets/png/c_phpAndSql.png');
+  background: url("../assets/png/c_phpAndSql.png");
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center;
 }
 
 .swiper-slide:nth-child(3n) {
-  background-image: url('/assets/png/c_python.png');
+  background: url("../assets/png/c_python.png");
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center;
 }
 
 /*.swiper-slide:nth-child(4n) {

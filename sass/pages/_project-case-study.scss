@@ -1,7 +1,7 @@
 @mixin common-hero-styles($color1, $color2) {
   color: #fff;
   background: linear-gradient(to right, rgba($color1, 0.8), rgba($color2, 0.8)),
-  url("../assets/svg/common-bg.svg");
+  url("/assets/svg/common-bg.svg");
   background-size: cover;
   background-position: center;
   position: relative;
@@ -52,7 +52,7 @@
 }
 
 .project-cs-hero-4 {
-  @include common-hero-styles(#0586ff, #000000);
+  @include common-hero-styles(#0586ff, #00000094);
 }
 
 .project-cs-hero-6 {
@@ -60,11 +60,11 @@
 }
 
 .project-cs-hero-7 {
-  @include common-hero-styles($themeClrPrimary, #161616);
+  @include common-hero-styles($themeClrPrimary, #14141485);
 }
 
 .project-cs-hero-8 {
-  @include common-hero-styles(#ed164f, #000000);
+  @include common-hero-styles(#ed164f, #00000088);
 
 
   &__content {

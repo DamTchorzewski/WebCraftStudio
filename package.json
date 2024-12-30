@@ -1,8 +1,8 @@
 {
-  "name": "damfolio",
+  "name": "webcraftstudio",
   "version": "1.0.0",
   "description": "",
-  "homepage": "https://damtchorzewski.github.io/damfolio/",
+  "homepage": "https://damtchorzewski.github.io/WebCraftStudio/",
   "main": "index.js",
   "scripts": {
     "compile:scss": "sass sass/main.scss css/style.css -w",

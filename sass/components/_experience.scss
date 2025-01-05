@@ -138,16 +138,16 @@
 
   /* General Swiper styling */
 .swiper {
-  width: 300px;
-  height: 400px;
+  width: 400px;
+  height: 500px;
   margin-bottom: 50px ;
   margin-top: 50px;
   margin-left: 10px;
   margin-right: 10px;
   @media (max-width: 750px) {
  
-    width: 200px;
-    height: 300px;
+    width: 250px;
+    height: 350px;
 
 }
 
@@ -157,7 +157,7 @@
 
 .swiper-slide {
   display: flex;
-  align-items: center;
+  
   justify-content: center;
   border-radius: 18px;
   font-size: 22px;
@@ -190,6 +190,20 @@
   background-position: center;
 }
 
+.swiper-slide:nth-child(4n) {
+  background: url("../assets/png/c_github.png");
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+
+.swiper-slide:nth-child(5n) {
+  background: url("../assets/png/c_docker.png");
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center;
+}
 /*.swiper-slide:nth-child(4n) {
   background-color: rgb(211, 122, 7);
 }
